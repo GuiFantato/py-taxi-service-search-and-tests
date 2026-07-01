@@ -33,6 +33,8 @@ INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
+CRISPY_TEMPLATE_PACK="bootstrap4"
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -124,7 +126,7 @@ LOGIN_REDIRECT_URL = "/"
 
 LANGUAGE_CODE = "pt-br"
 
-TIME_ZONE = "Brazil/Sao_Paulo"
+TIME_ZONE = "America/Sao_Paulo"
 
 USE_I18N = True
 
